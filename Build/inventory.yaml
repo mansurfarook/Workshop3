@@ -1,0 +1,7 @@
+all:
+    hosts:
+      server0:
+        ansible_host: 128.199.90.84
+        ansible_connection: ssh
+        anible_user: root
+        ansible_ssh_private_key_file: ../../../my-docker3
